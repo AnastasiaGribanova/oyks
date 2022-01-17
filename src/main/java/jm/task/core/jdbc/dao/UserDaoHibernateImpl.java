@@ -1,5 +1,5 @@
 package jm.task.core.jdbc.dao;
-
+//Остается путой!
 import jm.task.core.jdbc.model.User;
 
 import java.util.List;
