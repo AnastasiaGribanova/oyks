@@ -1,3 +1,4 @@
+/*
 package jm.task.core.jdbc.dao;
 
 import jm.task.core.jdbc.model.User;
@@ -90,6 +91,7 @@ public class UserDaoJDBCImpl implements UserDao {
                 user.setLastName(resultSet.getString("lastName"));
                 user.setAge(resultSet.getByte("age"));
                 allUser.add(user);
+                System.out.println(user);
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -120,3 +122,4 @@ public class UserDaoJDBCImpl implements UserDao {
 
 
 }
+*/
